@@ -18,7 +18,7 @@ Example: distance between Boston and New York City
 .. code:: python
 
    >>> from vincenty import vincenty
-   >>> boston = (42.3541165, -71.0693514)
+   >>> boston = (42.3541165, -71.0693514)  # note coordinates are specified as (lat, lon) or (y, x)
    >>> newyork = (40.7791472, -73.9680804)
    >>> vincenty(boston, newyork)
    298.396057
